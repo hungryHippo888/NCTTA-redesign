@@ -1,0 +1,465 @@
+*
+{
+/*font-family: 'Karma', serif !important;
+*/font-family: 'basic-sans', sans-serif !important;
+color: white;
+margin: 0;
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+
+/*@font-face {
+  font-family: "GildaDisplay";
+  src: url("components/Gilda_Display/GildaDisplay-regular.ttf") format("truetype");
+}*/
+
+body {
+background-image: linear-gradient(45deg, #121212 40%, #457B9D 60%, #121212 80%);
+min-height: 100%;
+min-width: 100%;
+background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+	font-weight: lighter;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+.NavBar {
+	padding-top: 1.5%;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	gap: 5vw;
+}
+
+.NavBar h3 {
+	color: #D1D1D1;
+}
+/*
+.setCol {
+	background-color: red;
+	max-width: 80%;
+	margin-right: ;
+}
+*/
+.dot {
+  height: 70vh;
+  width: 70vh;
+  background-color: #457B9D;
+  border-radius: 50%;
+  position: relative;
+/*  top: 50%;
+  left: 50%;*/
+/*  transform: translate(-50%, -50%);
+*/  z-index: -1;
+}
+
+.content-wrapper {
+	width: 80%;
+	margin: 4% 10% 5% 10%;
+}
+
+
+.banner {
+display: block;
+position: relative;
+margin-top: 10vh;
+width: 70%;
+margin-left: 10%;
+z-index: 1;
+/*margin: 0 auto;
+*//*background-color: red;
+*/}
+
+.bannerParent {
+display: block;
+margin-top: 10vh;
+width: 70%;
+margin-left: 10%;
+z-index: 1;
+}
+
+.bannerText {
+}
+
+
+.heading {
+	font-family: nunito-sans, sans-serif !important;
+	font-weight: 700;
+	font-style: normal;
+	margin-top: 5vh;
+	white-space: nowrap;
+	font-size: 5.3em;
+	line-height: 1em;
+	z-index: 1;
+/*	background-image: linear-gradient(30deg, #FFF 3%, #457B9D 30%, #FFF 70%);
+	-webkit-background-clip: text;
+	color: transparent;*/
+}
+
+
+/* Taken from https://www.thewebblinders.in/programming/article/the-right-way-of-doing-css-full-screen-landing-page-with-centered-content-6030 */
+.landingPage {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 100vh;
+  min-height: 100vh;	
+	background: url("components/bg-circle.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* For centering content */
+/*	display: flex;
+*//*	align-items: center;
+	justify-content: center;
+*/}
+
+.frontImg{
+ height: 70vh;
+ width: 20vw;
+ object-fit: cover;
+ z-index: -1;
+ border-radius: 8px;
+ object-position: 35%;
+}
+
+
+.imgContainer {
+
+}
+
+.vertical {
+  border-left: 3px solid white;
+  height: 150px;
+  position:relative;
+  bottom: 0%;
+  left: 84%;
+}
+
+.vertical2 {
+  border-left: 3px solid white;
+  height: 300px;
+  position:relative;
+  bottom: 0%;
+  left: 86%;
+}
+
+.vertical3 {
+  border-left: 3px solid white;
+  height: 225px;
+  position:relative;
+  bottom: 0%;
+  left: 88%;
+}
+
+.vertical4 {
+  border-left: 3px solid white;
+  height: 150px;
+  position:relative;
+  top: 0%;
+  right: 90%;
+}
+
+.vertical5 {
+  border-left: 3px solid white;
+  height: 300px;
+  position:relative;
+  top: 0%;
+  right: 92%;
+}
+
+.vertical6 {
+  border-left: 3px solid white;
+  height: 225px;
+  position:relative;
+  top: 0%;
+  right: 94%;
+}
+
+.containerNews {
+	display: block;
+	margin-top: 2vh;
+	margin-right: 5vw;
+	position: relative;
+ }
+
+.news {
+	line-height: 10vh;
+}
+
+/*.news {
+	color: red;
+	font-size: 24px;
+}*/
+
+.news:hover {
+	background-color: #457B9D;
+	border-radius: 7px;
+}
+
+.circleBg {
+		margin-top: 10vh;
+		height: 70vh;
+		width: 70vh;;
+    border-radius:70vh;
+/*    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    background: #457B9D;
+    position: absolute;
+    margin-left: 10vw;
+/*    top: 10%;
+    left: 10%;*/
+}
+
+.NavBarChild {
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.NavBarChild:hover {
+	background-color: #457B9D;
+	border-radius: 7px;
+}
+
+.mainPage {
+	width: 100%;
+	height: 100%;
+/*	background-color: red;
+*/}
+
+.signUpButton {
+	background-color: #E63946;
+	padding: 7px 7px 7px 7px;
+	border-radius: 7px;
+	border-style: none;
+}
+
+.logo {
+	height: 5em;
+	padding-top: 0em !important;
+	position: absolute;
+	top: 1%;
+	left: 1%;
+}
+
+.socialMedia {
+	width: 27px;
+	height: auto;
+}
+
+.socialMedia2 {
+	width: 13px;
+	height: auto;
+}
+
+.arrowContainer {
+    display: flex;
+}
+
+.arrow {
+	position: absolute;
+	right: 5%;
+}
+
+/*@media (max-width: 1500px) {
+#hamburger-menu {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 20px;
+    background: linear-gradient(
+      to bottom, 
+      white, white 20%, 
+      #121212 20%, #121212 40%, 
+      white 40%, white 60%, 
+      #121212 60%, #121212 80%, 
+      white 80%, white 100%
+    );
+}
+
+.col {
+	padding-right: 0px !important;
+}
+}*/
+
+.frontPage {
+	margin-left: 3vw;
+	margin-right: 4vw;
+	margin-top: 10vh;
+	height: 100vh;
+	display: flex;
+	padding: 0 0 0 0;
+}
+
+
+@media (min-width: 1001px) {
+#hamburger-menu {
+		visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: #3D0E61;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+}
+
+/* for ipad */
+@media (max-width: 1000px) {
+#hamburger-menu {
+		position: absolute;
+		top: 1%;
+		right: 1%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 20px;
+    background: linear-gradient(
+      to bottom, 
+      white, white 20%, 
+      #121212 20%, #121212 40%, 
+      white 40%, white 60%, 
+      #121212 60%, #121212 80%, 
+      white 80%, white 100%
+    );
+}
+
+.NavBarChild {
+	visibility: hidden;
+}
+
+.frontImg {
+	visibility: hidden;
+}
+
+.mediaUpdate {
+	display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin:	0 auto auto auto;
+ }
+
+ .containerNews {
+ 	margin-top: 5vh;
+	margin-right: unset;
+	position: relative;
+ }
+
+.imgContainer {
+	display: none;
+}
+
+.banner {
+	all: unset;
+/*margin: 0 auto;
+*//*background-color: red;
+*/}
+
+.frontPage {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:	5vh;
+  padding-bottom: 10vh;
+ }
+}
+
+@media (max-width: 700px) {
+.banner {
+	font-size: 0.8em;
+}
+}
+
+/* for iphone */
+@media (max-width: 600px) {
+#hamburger-menu {
+		position: absolute;
+		top: 1%;
+		right: 1%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 20px;
+    background: linear-gradient(
+      to bottom, 
+      white, white 20%, 
+      #121212 20%, #121212 40%, 
+      white 40%, white 60%, 
+      #121212 60%, #121212 80%, 
+      white 80%, white 100%
+    );
+}
+
+.NavBarChild {
+	visibility: hidden;
+}
+
+.frontImg {
+	visibility: hidden;
+}
+
+.mediaUpdate {
+	display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin:	0 auto auto auto;
+ }
+
+ .containerNews {
+ 	margin-top: 5vh;
+	margin-right: unset;
+	position: relative;
+ }
+
+ .containerNews p {
+ 	font-size: 0.2em;
+ }
+
+  .containerNews h2 {
+ 	font-size: 1em;
+ }
+
+.imgContainer {
+	display: none;
+}
+
+.banner {
+	font-size: 0.5em;
+}
+
+.logo {
+	height:5em;
+}
+
+.frontPage {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:	5vh;
+  padding-bottom: 10vh;
+ }
+
+ .footer {
+ 	visibility: hidden;
+ 	display: none;
+ }
+}
+
+
